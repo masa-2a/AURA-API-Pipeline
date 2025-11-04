@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "prompt": "I feel like everyone around me is moving forward, and I’m stuck.",
+  "category": "sadness",
+  "timestamp": "2025-11-04T13:04:23",
+  "outputs": {
+    "gpt-4o": "It’s understandable to feel left behind...",
+    "claude-3-opus": "Feeling stuck can be painful, but it doesn’t mean..."
+  }
+}
