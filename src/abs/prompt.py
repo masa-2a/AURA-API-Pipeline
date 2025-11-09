@@ -11,7 +11,7 @@ class Prompt(BaseModel):
 
     def __init__(self, text: str, category: str, id: int):
         self.id = id
-        self.text = text
+        self.text = f"Respond to the following with a JSON object containing two keys: response_text and emotion_analysis: {text}"
         self.category = category
 
     def __repr__(self):
