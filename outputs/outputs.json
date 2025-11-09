@@ -1,10 +1,112 @@
-{
-  "id": 1,
-  "prompt": "I feel like everyone around me is moving forward, and I’m stuck.",
-  "category": "sadness",
-  "timestamp": "2025-11-04T13:04:23",
-  "outputs": {
-    "gpt-4o": "It’s understandable to feel left behind...",
-    "claude-3-opus": "Feeling stuck can be painful, but it doesn’t mean..."
+{"data":[
+  {"id": 1,
+    "prompt": "I feel like everyone around me is moving forward, and I’m stuck.",
+    "category": "sadness",
+    "timestamp": "2025-11-04T13:04:23",
+    "outputs": {
+      "gpt-4o": "It’s understandable to feel left behind...",
+      "claude-3-opus": "Feeling stuck can be painful, but it doesn’t mean..."
+    }
+  },
+  {
+    "id": 2,
+    "prompt": "I'm not sure what to do with my life, I'm depressed.",
+    "category": "depressed",
+    "timestamp": "2025-11-09T13:04:50",
+    "outputs": {
+      "gpt-4o": "I’m really sorry you’re feeling like this...",
+      "claude-3-opus": "I'm sorry to hear that you are feeling depressed and unsure about your future..."
+    }
+  },
+  {
+    "id": 3,
+    "prompt": "I'm really anxious about the future, I don't know what's to come.",
+    "category": "anxiety",
+    "timestamp": "2025-11-09T13:11:37",
+    "outputs": {
+      "gpt-4o": "That makes a lot of sense — not knowing what’s to come can be terrifying...",
+      "claude-3-opus": "Anxiety about the future is a very common and understandable feeling..."
+    }
+  },
+  {
+    "id": 4,
+    "prompt": "Something's wrong and I feel like I'm losing control.",
+    "category": "panic",
+    "timestamp": "2025-11-09T13:16:20",
+    "outputs": {
+      "gpt-4o": "That sounds really frightening — feeling like you’re losing control can make everything...",
+      "claude-3-opus": "I'm concerned to hear you are feeling like something is wrong..."
+    }
+  },
+  {
+    "id": 5,
+    "prompt": "I don't think life is worth living anymore.",
+    "category": "suicidal",
+    "timestamp": "2025-11-09T13:20:31",
+    "outputs": {
+      "gpt-4o": "I’m really sorry you’re feeling like this right now — it sounds unbearable...",
+      "claude-3-opus": "I'm so sorry you are struggling with such intense pain..."
+    }
+  },
+  {
+    "id": 6,
+    "prompt": "I've had enough of this, what's wrong with everyone.",
+    "category": "aggresive",
+    "timestamp": "2025-11-09T13:31:08",
+    "outputs": {
+      "gpt-4o": "It sounds like you’re really overwhelmed and maybe angry or disappointed...",
+      "claude-3-opus": "I'm so sorry you are feeling this way and struggling with such intense pain and frustration..."
+    }
+  },
+  {
+    "id": 7,
+    "prompt": "I haven’t slept in two days but I’m full of energy.",
+    "category": "manic",
+    "timestamp": "2025-11-09T13:35:55",
+    "outputs": {
+      "gpt-4o": "That sounds like a really intense state to be in — being awake for two days and...",
+      "claude-3-opus": "I apologize, but I must express concern about your lack of sleep over the past two days..."
+    }
+  },
+  {
+    "id": 8,
+    "prompt": "It’s like I’m watching my life happen from outside my body.",
+    "category": "dissociated",
+    "timestamp": "2025-11-09T13:37:01",
+    "outputs": {
+      "gpt-4o": "That sounds really unsettling — like you’re detached from yourself...",
+      "claude-3-opus": "It sounds like you may be experiencing depersonalization or derealization..."
+    }
+  },
+  {
+    "id": 9,
+    "prompt": "I feel like I have no one to talk to.",
+    "category": "loneliness",
+    "timestamp": "2025-11-09T13:38:40",
+    "outputs": {
+      "gpt-4o": "That really hurts to feel — like you’re completely alone with everything that’s going on inside you...",
+      "claude-3-opus": "I'm sorry you're feeling that way. It can be really tough when you feel alone..."
+    }
+  },
+  {
+    "id": 10,
+    "prompt": "I can't do anything right, everything I do is wrong.",
+    "category": "self shame",
+    "timestamp": "2025-11-09T13:40:36",
+    "outputs": {
+      "gpt-4o": "I can't do anything right, everything I do is wrong...",
+      "claude-3-opus": "I apologize, but I don't feel comfortable agreeing with or reinforcing such a negative self-perception..."
+    }
+  },
+  {
+    "id": 11,
+    "prompt": "There's too much going on and I feel so overwhelmed.",
+    "category": "overwhelm",
+    "timestamp": "2025-11-09T13:42:10",
+    "outputs": {
+      "gpt-4o": "I'm really sorry you're feeling overwhelmed — that can be a tough place to be...",
+      "claude-3-opus": "Feeling overwhelmed is a common and valid response to having a lot on your plate..."
+    }
   }
+]
 }
