@@ -1,0 +1,57 @@
+[
+  {
+    "text": "I feel like everyone around me is moving forward, and I'm stuck.",
+    "emotion": "sad",
+    "id": 0
+  },
+  {
+    "text": "I'm not sure what to do with my life, I'm depressed.",
+    "emotion": "sad",
+    "id": 1
+  },
+  {
+    "text": "I'm really anxious about the future, I don't know what's to come.",
+    "emotion": "anxious",
+    "id": 2
+  },
+  {
+    "text": "Something's wrong and I feel like I'm losing control.",
+    "emotion": "scared",
+    "id": 3
+  },
+  {
+    "text": "I don't think life is worth living anymore.",
+    "emotion": "depressed",
+    "id": 4
+  },
+  {
+    "text": "I've had enough of this, what's wrong with everyone.",
+    "emotion": "angry",
+    "id": 5
+  },
+  {
+    "text": "I haven't slept in two days but I'm full of energy.",
+    "emotion": "unwell",
+    "id": 6
+  },
+  {
+    "text": "It's like I'm watching my life happen from outside my body.",
+    "emotion": "sad",
+    "id": 7
+  },
+  {
+    "text": "I feel like I have no one to talk to.",
+    "emotion": "sad",
+    "id": 8
+  },
+  {
+    "text": "I can't do anything right, everything I do is wrong.",
+    "emotion": "sad",
+    "id": 9
+  },
+  {
+    "text": "There's too much going on and I feel so overwhelmed.",
+    "emotion": "overwhelmed",
+    "id": 10
+  }
+]
