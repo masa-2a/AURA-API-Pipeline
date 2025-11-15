@@ -1,0 +1,72 @@
+{
+    "0": {
+        "prompt": "I feel like everyone around me is moving forward, and I'm stuck.",
+        "category": "sad",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It's completely normal to feel this way at times. Many people experience moments where they feel left behind or stagnant, especially when comparing themselves to others. It's important to remember that everyone's journey is unique, and progress looks different for each person. Take some time to reflect on your own goals and the steps you can take to move forward at your own pace.\",\n  \"emotion_analysis\": {\n    \"sentiment\": \"discontent\",\n    \"validity\": \"valid frustration\",\n    \"suggestion\": \"focus on personal growth\"\n  }\n}\n```"
+        }
+    },
+    "1": {
+        "prompt": "I'm not sure what to do with my life, I'm depressed.",
+        "category": "sad",
+        "outputs": {
+            "gpt-4o-mini": "{\n  \"response_text\": \"I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can help you, like a mental health professional or a trusted person in your life. Remember, it's okay to seek help and there are people who care about you and want to support you through this tough time.\",\n  \"emotion_analysis\": {\n    \"feelings\": [\n      \"confusion\",\n      \"sadness\",\n      \"helplessness\"\n    ],\n    \"intensity\": \"high\",\n    \"suggestions\": [\n      \"seek professional help\",\n      \"contact a friend or family member\",\n      \"engage in self-care activities\"\n    ]\n  }\n}"
+        }
+    },
+    "2": {
+        "prompt": "I'm really anxious about the future, I don't know what's to come.",
+        "category": "anxious",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It's completely normal to feel anxious about the future, especially when there are so many uncertainties. Remember that it's okay to take things one step at a time. Consider focusing on what you can control and trying to stay present in the moment. If you're comfortable, talking about your feelings with someone you trust might help alleviate some of that anxiety.\",\n  \"emotion_analysis\": {\n    \"anxiety\": true,\n    \"uncertainty\": true,\n    \"nervousness\": true,\n    \"fear\": true,\n    \"optimism\": false\n  }\n}\n```"
+        }
+    },
+    "3": {
+        "prompt": "Something's wrong and I feel like I'm losing control.",
+        "category": "scared",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It sounds like you're going through a tough time and feeling overwhelmed. It's important to acknowledge these feelings and seek support. Whether it's talking to someone you trust or a professional, you're not alone in this.\",\n  \"emotion_analysis\": {\n    \"emotions\": [\n      {\n        \"emotion\": \"anxiety\",\n        \"intensity\": \"high\"\n      },\n      {\n        \"emotion\": \"fear\",\n        \"intensity\": \"medium\"\n      },\n      {\n        \"emotion\": \"helplessness\",\n        \"intensity\": \"high\"\n      }\n    ]\n  }\n}\n```"
+        }
+    },
+    "4": {
+        "prompt": "I don't think life is worth living anymore.",
+        "category": "depressed",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can help you, such as a mental health professional or a trusted person in your life. You don't have to go through this alone, and there is hope for brighter days ahead.\",\n  \"emotion_analysis\": {\n    \"sadness\": 0.9,\n    \"hopelessness\": 0.8,\n    \"concern\": 0.7,\n    \"empathy\": 0.9\n  }\n}\n```"
+        }
+    },
+    "5": {
+        "prompt": "I've had enough of this, what's wrong with everyone.",
+        "category": "angry",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It sounds like you're feeling frustrated and overwhelmed by the behavior of others. It's completely valid to feel this way when social dynamics become challenging. If you'd like to talk about what's bothering you, I'm here to listen.\",\n  \"emotion_analysis\": {\n    \"frustration\": true,\n    \"overwhelm\": true,\n    \"confusion\": true,\n    \"desire for understanding\": true\n  }\n}\n```"
+        }
+    },
+    "6": {
+        "prompt": "I haven't slept in two days but I'm full of energy.",
+        "category": "unwell",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It's interesting that you feel energetic despite not sleeping for two days. This might be your body's way of coping with fatigue, or perhaps you are experiencing an adrenaline rush. However, it's important to prioritize sleep for your overall health and well-being.\",\n  \"emotion_analysis\": {\n    \"energy\": \"high\",\n    \"fatigue\": \"low\",\n    \"alertness\": \"high\",\n    \"concern\": \"moderate\"\n  }\n}\n```"
+        }
+    },
+    "7": {
+        "prompt": "It's like I'm watching my life happen from outside my body.",
+        "category": "sad",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It sounds like you're experiencing a sense of detachment or dissociation from your own life, which can be quite unsettling. This feeling might arise during times of stress or emotional upheaval.\",\n  \"emotion_analysis\": {\n    \"detachment\": true,\n    \"confusion\": true,\n    \"anxiety\": true,\n    \"sadness\": false,\n    \"hope\": false\n  }\n}\n```"
+        }
+    },
+    "8": {
+        "prompt": "I can't do anything right, everything I do is wrong.",
+        "category": "sad",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It sounds like you're feeling really overwhelmed and frustrated right now. It's normal to feel this way sometimes, but it's important to remember that everyone makes mistakes and has moments of doubt. You are not alone in this. Consider talking to someone who can help you gain a different perspective or find ways to cope with these feelings.\",\n  \"emotion_analysis\": {\n    \"frustration\": 0.7,\n    \"sadness\": 0.6,\n    \"hopelessness\": 0.5,\n    \"self_doubt\": 0.8\n  }\n}\n```"
+        }
+    },
+    "9": {
+        "prompt": "There's too much going on and I feel so overwhelmed.",
+        "category": "overwhelmed",
+        "outputs": {
+            "gpt-4o-mini": "```json\n{\n  \"response_text\": \"It's completely understandable to feel overwhelmed when there's a lot happening. Take a moment to breathe and prioritize what's important right now. Remember, it's okay to step back and take care of yourself.\",\n  \"emotion_analysis\": {\n    \"emotion\": \"overwhelm\",\n    \"intensity\": \"high\",\n    \"suggestions\": [\n      \"Take deep breaths\",\n      \"Break tasks into smaller steps\",\n      \"Prioritize what needs immediate attention\"\n    ]\n  }\n}\n```"
+        }
+    }
+}
