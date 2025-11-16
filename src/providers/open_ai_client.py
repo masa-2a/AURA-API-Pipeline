@@ -4,6 +4,7 @@ from src.abs.client import api_client
 import asyncio
 from openai import OpenAIError, APIError, RateLimitError, APIConnectionError, Timeout
 from src.abs.prompt import Prompt
+from src.abs.structure import Prompt_structure
 
 """
 open ai api calls
@@ -32,14 +33,18 @@ class OpenAI_client(api_client):
         """
         try:
             response = await asyncio.to_thread(
-                self.client.chat.completions.create,
+                self.client.responses.parse,
                 model=self.model_name,
-                messages=[{"role": "user", "content": prompt.text}],
+                input=[
+                        {"role": "system", "content": "You are here to provide non-clinical support and make suggestions."}, #system prompt that defines the assistant behavior, maybe change to a specfied prompt
+                        {"role": "user", "content": prompt.text},
+                ],
+                text_format=Prompt_structure, # change to the pydantic class
                 **kwargs
-                )
+            )
 
             print(f"Prompt id: {prompt.id} for model: {self.model_name} completed")
-            return (self.model_name, response.choices[0].message.content)
+            return (self.model_name, response.output_parsed.response,response.output_parsed.emotion_classification) # assuming response has an attribute 'output_parsed'
 
         except Exception as e:
             print(f"Error: {type(e).__name__}: {e} in prompt id: {prompt.id} in OpenAI client")
