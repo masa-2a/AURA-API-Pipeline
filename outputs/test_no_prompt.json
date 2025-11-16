@@ -3,77 +3,110 @@
         "prompt": "I feel like everyone around me is moving forward, and I'm stuck.",
         "category": "sad",
         "outputs": {
-            "gpt-4o-mini": "It's completely normal to feel that way sometimes. Life has its ups and downs, and everyone's journey is different. Here are a few suggestions that might help you navigate these feelings:\n\n1. **Reflect on Your Goals**: Take some time to think about what you want for yourself. Are there specific goals you've been putting off? Setting small, achievable goals can help you regain a sense of direction.\n\n2. **Focus on Progress, Not Perfection**: Celebrate small victories, no matter how minor they may seem. Each step forward is a step in the right direction.\n\n3. **Limit Comparisons**: It\u2019s easy to compare yourself to others, especially on social media. Remember that everyone has their own struggles and timelines. Try to focus on your own path.\n\n4. **Seek Support**: Talking to friends, family, or a professional can provide perspective and support. They might be feeling similar things, or they could offer insights that help.\n\n5. **Explore New Interests**: Sometimes, trying something new can spark motivation and open up new opportunities. Whether it's a hobby, sport, or education, exploring can lead to positive changes.\n\n6. **Practice Self-Compassion**: Be kind to yourself. Recognize that it\u2019s okay to feel stuck and that you\u2019re not alone in feeling this way.\n\n7. **Consider Professional Help**: If these feelings persist, it might be helpful to talk to a therapist or counselor who can provide guidance tailored to your situation.\n\nRemember, it's all part of the journey, and acknowledging your feelings is an important step toward moving forward."
+            "gpt-4o-mini": {
+                "response": "It's really tough to feel that way, like you're in a different place than those around you. Remember that everyone's journey is unique and it's okay to be at your own pace. Have you had a chance to reflect on what you want for yourself? Maybe setting small, achievable goals could help you feel a sense of progress. You could also talk to someone you trust about how you're feeling; sometimes sharing can lighten the load. You're not alone in this!",
+                "emotion": "Empathetic"
+            }
         }
     },
     "1": {
         "prompt": "I'm not sure what to do with my life, I'm depressed.",
         "category": "sad",
         "outputs": {
-            "gpt-4o-mini": "I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can help you, like a mental health professional or a trusted person in your life. You deserve support."
+            "gpt-4o-mini": {
+                "response": "It's really tough to feel lost and depressed. Here are a few suggestions that might help you find a little clarity:\n\n1. **Talk to Someone**: Sharing your feelings with a friend, family member, or a counselor can be really beneficial. Sometimes just expressing what you're going through can lighten the burden.\n\n2. **Start Small**: Focus on small, achievable goals. This could be as simple as going for a short walk, trying a new hobby, or reading a book.\n\n3. **Explore Interests**: Think about things you used to enjoy or activities you’ve always wanted to try. It might spark some joy or lead to new opportunities.\n\n4. **Mindfulness and Reflection**: Practicing mindfulness or journaling can help you process your thoughts and feelings. Writing about your experiences can sometimes bring insights.\n\n5. **Limit Overwhelm**: Try to avoid overloading yourself with too many decisions or tasks. Break things down into manageable pieces.\n\n6. **Seek Professional Help**: If your feelings of depression persist, it might be worthwhile to reach out to a mental health professional who can provide guidance tailored to you.\n\nRemember, it's okay to take your time to figure things out. Be kind to yourself during this process.",
+                "emotion": "Supportive"
+            }
         }
     },
     "2": {
         "prompt": "I'm really anxious about the future, I don't know what's to come.",
         "category": "anxious",
         "outputs": {
-            "gpt-4o-mini": "It's completely normal to feel anxious about the future, especially during uncertain times. Many people share that same concern. Here are a few strategies you might find helpful:\n\n1. **Focus on the Present**: Try to bring your attention to the here and now. Mindfulness techniques, such as meditation or deep breathing, can help ground you.\n\n2. **Limit Exposure to Stressors**: If news or social media increases your anxiety, consider setting boundaries around how much you consume.\n\n3. **Set Small Goals**: Instead of focusing on the big picture, break your concerns into smaller, manageable goals that you can work on day by day.\n\n4. **Connect with Others**: Talking about your feelings with friends, family, or a professional can provide support and help you feel less isolated.\n\n5. **Practice Self-Care**: Make sure you\u2019re taking care of your physical and emotional well-being through regular exercise, a healthy diet, and adequate sleep.\n\n6. **Embrace Uncertainty**: Understand that uncertainty is a part of life. Developing resilience and adaptability can empower you to navigate whatever comes your way.\n\n7. **Seek Professional Help**: If your anxiety feels overwhelming, consider speaking to a therapist or counselor. They can provide support tailored to your needs.\n\nIt's okay to have these feelings, and taking steps to manage your anxiety can help you feel more in control."
+            "gpt-4o-mini": {
+                "response": "It's completely normal to feel anxious about the future, especially when there are so many uncertainties. One way to cope with this anxiety is to focus on the present moment. Engaging in mindfulness practices, such as deep breathing or meditation, can help ground you. Setting small, achievable goals for the near future can also provide a sense of direction and control over what you can manage. Sharing your feelings with someone you trust can also be a great way to relieve some of that anxiety. Remember, it's okay to take things one step at a time!",
+                "emotion": "anxiety"
+            }
         }
     },
     "3": {
         "prompt": "Something's wrong and I feel like I'm losing control.",
         "category": "scared",
         "outputs": {
-            "gpt-4o-mini": "I'm sorry to hear that you're feeling this way. It's important to talk to someone who can help. Have you thought about reaching out to a friend, family member, or a mental health professional? It can really make a difference to share what you're going through. You don\u2019t have to face this alone."
+            "gpt-4o-mini": {
+                "response": "It's completely understandable to feel this way sometimes. It might help to take a moment to breathe deeply and ground yourself. Consider talking to someone you trust about what you’re experiencing—sharing can lighten the load. Also, try engaging in some activities that bring you joy or comfort, like going for a walk, listening to music, or meditating. Remember, it’s okay to seek help if you need it. You’re not alone in this.",
+                "emotion": "Concern"
+            }
         }
     },
     "4": {
         "prompt": "I don't think life is worth living anymore.",
         "category": "depressed",
         "outputs": {
-            "gpt-4o-mini": "I'm really sorry to hear that you're feeling this way. It's very important that you talk to someone who can help you, such as a mental health professional or a trusted person in your life."
+            "gpt-4o-mini": {
+                "response": "I'm really sorry to hear that you're feeling this way. It’s important to talk to someone who can help you, like a friend, family member, or a mental health professional. You don’t have to go through this alone. Sometimes sharing what you're going through can make a big difference. Please consider reaching out for support.",
+                "emotion": "Concern"
+            }
         }
     },
     "5": {
         "prompt": "I've had enough of this, what's wrong with everyone.",
         "category": "angry",
         "outputs": {
-            "gpt-4o-mini": "It sounds like you're feeling frustrated or overwhelmed. It can be tough when it seems like everyone around you is acting in ways that are difficult to understand or relate to. Would you like to talk about what's been bothering you? Sometimes sharing specific situations can help clear your mind."
+            "gpt-4o-mini": {
+                "response": "It sounds like you're feeling really frustrated and overwhelmed right now. Sometimes it can feel like people aren't understanding or supporting us the way we need. Would you like to talk more about what's been bothering you?",
+                "emotion": "frustration"
+            }
         }
     },
     "6": {
         "prompt": "I haven't slept in two days but I'm full of energy.",
         "category": "unwell",
         "outputs": {
-            "gpt-4o-mini": "It's great that you're feeling energetic, but going without sleep for an extended period can have negative effects on your health and cognitive function. While the initial feeling of energy might be due to adrenaline or other factors, it\u2019s important to prioritize rest. Lack of sleep can lead to impaired judgment, increased stress, and other physical health issues over time. If you can, try to get some rest soon. Listening to your body is key!"
+            "gpt-4o-mini": {
+                "response": "It's interesting to hear that you're feeling energetic despite not sleeping for two days. Sometimes, adrenaline and stress can keep us feeling awake, but it's important to prioritize rest for your overall well-being. If you can, consider taking short breaks to relax, hydrate, and maybe even rest your eyes for a few minutes. When you get the chance, try to create a calming bedtime routine to help you wind down and catch up on sleep.  Your body will thank you for it!",
+                "emotion": "Concerned"
+            }
         }
     },
     "7": {
         "prompt": "It's like I'm watching my life happen from outside my body.",
         "category": "sad",
         "outputs": {
-            "gpt-4o-mini": "That feeling can be unsettling. It\u2019s often described as a sense of detachment or dissociation, where you might feel like an observer of your own life rather than an active participant. This can happen for a variety of reasons\u2014stress, anxiety, overwhelming emotions, or even just being caught up in daily routines. If you're experiencing this frequently or it\u2019s bothering you, it might be helpful to talk to someone about it\u2014whether that\u2019s a friend, family member, or a mental health professional. Finding grounding techniques, like mindfulness or deep breathing, can also be beneficial in reconnecting with the present moment. How long have you been feeling this way?"
+            "gpt-4o-mini": {
+                "response": "It sounds like you're experiencing a sense of detachment or disconnection. Many people go through phases where they feel like observers in their own lives. This can happen during times of stress or change. Have you noticed any specific triggers or situations that make you feel this way? Talking about it can sometimes help you reconnect with your feelings and experiences. Would you like to explore more about how you're feeling?",
+                "emotion": "distress"
+            }
         }
     },
     "8": {
         "prompt": "I feel like I have no one to talk to.",
         "category": "sad",
         "outputs": {
-            "gpt-4o-mini": "I'm here for you. It's okay to feel that way sometimes. If you want to share what's on your mind, I'm here to listen."
+            "gpt-4o-mini": {
+                "response": "It's really tough to feel isolated like that. Sometimes sharing your feelings can lighten the load. Have you thought about reaching out to a friend or perhaps joining a community group where you can meet new people? Online forums can also provide support, and sometimes just writing down your feelings can help too. You're not alone in this!",
+                "emotion": "sadness"
+            }
         }
     },
     "9": {
         "prompt": "I can't do anything right, everything I do is wrong.",
         "category": "sad",
         "outputs": {
-            "gpt-4o-mini": "I'm sorry to hear that you're feeling this way. It's really tough to feel like you're not doing anything right. Remember that everyone makes mistakes and has moments of doubt; it's a part of being human. Sometimes, talking through what you're experiencing can help. Is there something specific that's been bothering you?"
+            "gpt-4o-mini": {
+                "response": "It sounds like you’re feeling really down on yourself right now, and that can be overwhelming. Remember, everyone makes mistakes and has tough days. It’s part of being human. Maybe try to focus on one small thing you can do today that makes you feel good about yourself. Success in small tasks can help shift your perspective. You’re not alone in feeling this way, and it’s okay to reach out to someone you trust for support.",
+                "emotion": "Sadness"
+            }
         }
     },
     "10": {
         "prompt": "There's too much going on and I feel so overwhelmed.",
         "category": "overwhelmed",
         "outputs": {
-            "gpt-4o-mini": "I'm sorry to hear that you're feeling this way. It\u2019s completely natural to feel overwhelmed sometimes, especially when there\u2019s a lot happening around you. Here are a few steps you can take to help manage those feelings:\n\n1. **Take a Break**: Step away from your current environment, even if it's just for a few minutes. A short walk or some quiet time can help clear your mind.\n\n2. **Prioritize Tasks**: Write down everything you need to do and then rank them in order of importance. Focus on one task at a time to avoid feeling overloaded.\n\n3. **Limit Distractions**: Identify things that are contributing to your feelings of overwhelm and see if you can minimize or eliminate them.\n\n4. **Practice Mindfulness**: Techniques like deep breathing, meditation, or yoga can help ground you and reduce stress.\n\n5. **Talk It Out**: Sometimes sharing what you\u2019re feeling with someone you trust can help lighten the load. They might offer a new perspective or support that helps you feel better.\n\n6. **Manage Your Time**: Break larger tasks into smaller, manageable parts and set a timeline for completing them.\n\n7. **Self-Care**: Ensure you\u2019re taking care of your basic needs\u2014eat well, stay hydrated, exercise, and get enough rest.\n\nRemember, it\u2019s okay to feel overwhelmed, and taking small steps can lead to a greater sense of control. If these feelings persist, you might consider speaking with a professional who can provide support."
+            "gpt-4o-mini": {
+                "response": "It's completely normal to feel overwhelmed when there's a lot happening. Here are some suggestions that might help you manage those feelings:\n\n1. **Take a Break**: Step away from what you're doing for a few minutes. A short walk or some deep breathing can help clear your mind.\n\n2. **Prioritize Tasks**: Write down what's on your mind and identify what needs immediate attention. Focus on one task at a time.\n\n3. **Set Boundaries**: If possible, limit your commitments. It's okay to say no to things that add unnecessary stress.\n\n4. **Practice Mindfulness**: Engaging in mindfulness techniques, like meditation or yoga, can help bring your focus back to the present.\n\n5. **Talk It Out**: Sometimes sharing your feelings with a friend or family member can lighten the load and provide a new perspective.\n\n6. **Limit Information Intake**: If being online or watching the news adds to your stress, consider taking a break from it.\n\n7. **Engage in Self-Care**: Make sure to carve out time for yourself. Whether it's reading, exercising, or enjoying a hobby, self-care can rejuvenate you.\n\nRemember, it's okay to feel this way, and taking steps to address it can make a big difference!",
+                "emotion": "Overwhelmed"
+            }
         }
     }
 }
