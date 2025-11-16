@@ -24,16 +24,19 @@ def main():
             "outputs": {}
         }
 
-        for model, outputJSON in responses:
+        for model, response, emotion in responses:
             
             # output = json.dumps(outputJSON)
             # get and split specific response parts from response JSONOBJ
 
-            data[prompt.id]["outputs"][model] = outputJSON
+            data[prompt.id]["outputs"][model] = {
+                "response": response,
+                "emotion": emotion
+            }
             # print(f"Model: {model}, Output: {output}")
 
-    with open(output_path_str, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
+    with open(output_path_str, 'w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, indent=4, ensure_ascii=False)
         print("JSON save succesful")
 
 
