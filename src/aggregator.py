@@ -3,6 +3,7 @@ from src.providers.open_ai_client import OpenAI_client
 from src.abs.prompt import Prompt
 import asyncio
 from typing import List
+from src.providers.gemini_client import Gemini_client
 
 class aggregator:
     """
@@ -10,7 +11,7 @@ class aggregator:
     """
     providers: List[api_client]
     def __init__(self):
-        self.providers = [OpenAI_client("gpt-4o-mini")]
+        self.providers = [OpenAI_client("gpt-4o-mini"), Gemini_client("gemini-2.5-flash")]
     
     def run_prompt(self, prompt: Prompt, **kwargs) -> List:
         """
