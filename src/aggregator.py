@@ -20,6 +20,7 @@ class aggregator:
 
         If one of them returns an error, log it then continue
         """
+        print(f"Prompt id: {prompt.id} completed for all models")
         return asyncio.run(self._run_prompt(prompt, **kwargs))
 
     
