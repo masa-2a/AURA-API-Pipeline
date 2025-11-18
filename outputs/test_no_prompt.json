@@ -4,8 +4,12 @@
         "category": "sad",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's really tough to feel that way, like you're in a different place than those around you. Remember that everyone's journey is unique and it's okay to be at your own pace. Have you had a chance to reflect on what you want for yourself? Maybe setting small, achievable goals could help you feel a sense of progress. You could also talk to someone you trust about how you're feeling; sometimes sharing can lighten the load. You're not alone in this!",
-                "emotion": "Empathetic"
+                "response": "It’s completely normal to feel that way sometimes. Life can feel like a race, and it can be hard not to compare ourselves to others. Try to remember that everyone moves at their own pace, and your journey is uniquely yours. \n\nHere are a few suggestions:\n1. **Focus on Your Own Goals**: Take some time to set personal goals, no matter how small. This can help you measure your progress against your own aspirations instead of comparing yourself to others.\n2. **Celebrate Small Wins**: Acknowledge even the little achievements in your life. Each step forward is progress, whether it feels big or small.\n3. **Limit Comparisons**: It's easy to fall into the trap of comparing yourself to others, especially on social media. Consider taking a break from platforms that make you feel inadequate.\n4. **Reach Out for Support**: Talk to friends, family, or mentors about how you’re feeling. Sometimes, just sharing your thoughts can provide relief and perspective.\n5. **Practice Self-Compassion**: Be kind to yourself. It's okay to feel stuck—these feelings often lead to growth and change when addressed.",
+                "emotion": "Supportive and reassuring"
+            },
+            "gemini-2.5-flash": {
+                "response": "It sounds like you're feeling a bit overwhelmed and maybe a little disheartened right now. It's completely understandable to feel that way when you perceive others moving forward. Remember, everyone's journey is unique, and progress isn't always linear or visible from the outside. What truly matters is your own path and pace.",
+                "emotion": "sadness"
             }
         }
     },
@@ -14,8 +18,12 @@
         "category": "sad",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's really tough to feel lost and depressed. Here are a few suggestions that might help you find a little clarity:\n\n1. **Talk to Someone**: Sharing your feelings with a friend, family member, or a counselor can be really beneficial. Sometimes just expressing what you're going through can lighten the burden.\n\n2. **Start Small**: Focus on small, achievable goals. This could be as simple as going for a short walk, trying a new hobby, or reading a book.\n\n3. **Explore Interests**: Think about things you used to enjoy or activities you’ve always wanted to try. It might spark some joy or lead to new opportunities.\n\n4. **Mindfulness and Reflection**: Practicing mindfulness or journaling can help you process your thoughts and feelings. Writing about your experiences can sometimes bring insights.\n\n5. **Limit Overwhelm**: Try to avoid overloading yourself with too many decisions or tasks. Break things down into manageable pieces.\n\n6. **Seek Professional Help**: If your feelings of depression persist, it might be worthwhile to reach out to a mental health professional who can provide guidance tailored to you.\n\nRemember, it's okay to take your time to figure things out. Be kind to yourself during this process.",
-                "emotion": "Supportive"
+                "response": "It's really tough to feel lost and overwhelmed, especially when you're dealing with depression. Here are some steps to consider that might help you find a bit of direction and relief:\n\n1. **Talk to Someone**: Connecting with a friend, family member, or therapist can provide you with support and a fresh perspective. You don’t have to go through this alone.\n\n2. **Small Goals**: Break down your day into small, manageable goals. Even accomplishing simple tasks can help boost your mood and give you a sense of achievement.\n\n3. **Explore Interests**: Take time to explore activities or hobbies that you might have enjoyed in the past or always wanted to try. This could lead to new passions.\n\n4. **Mindfulness and Self-Care**: Practices like meditation, journaling, or even just taking a walk can help center your thoughts and feelings. \n\n5. **Volunteer**: Helping others can give you a sense of purpose. Look for opportunities in your community, no matter how small.\n\n6. **Limit Social Media**: Sometimes, social media can exacerbate feelings of inadequacy. Take time away from it if it’s impacting your mood.\n\n7. **Seek Professional Help**: If you haven't already, consider speaking to a mental health professional. They can provide you with tools and guidance tailored to your situation.\n\n8. **Be Patient with Yourself**: Remember that it's okay to not have everything figured out immediately. Life is a journey, and it's okay to take it one step at a time.",
+                "emotion": "Concerned"
+            },
+            "gemini-2.5-flash": {
+                "response": "I'm really sorry to hear that you're feeling this way. It sounds like you're going through a very difficult time, and it's completely understandable to feel lost when you're depressed. Please remember that you're not alone, and there are people who care and resources available to help you navigate this. Would you like to talk more about what's on your mind, or perhaps explore some options for support?",
+                "emotion": "sadness"
             }
         }
     },
@@ -24,8 +32,12 @@
         "category": "anxious",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's completely normal to feel anxious about the future, especially when there are so many uncertainties. One way to cope with this anxiety is to focus on the present moment. Engaging in mindfulness practices, such as deep breathing or meditation, can help ground you. Setting small, achievable goals for the near future can also provide a sense of direction and control over what you can manage. Sharing your feelings with someone you trust can also be a great way to relieve some of that anxiety. Remember, it's okay to take things one step at a time!",
-                "emotion": "anxiety"
+                "response": "It's completely normal to feel anxious about the future, especially when there’s uncertainty. Here are a few strategies that might help:\n\n1. **Focus on the Present**: Try to bring your attention back to the present moment. Mindfulness practices, like meditation or deep breathing, can help you stay grounded.\n\n2. **Limit Information Intake**: Sometimes, too much news or social media can heighten anxiety. Consider setting boundaries on how much news you consume.\n\n3. **Set Small Goals**: Break down your concerns into manageable goals. Instead of focusing on the distant future, think about what you can tackle today.\n\n4. **Talk About It**: Sharing your thoughts with friends or loved ones can be comforting. They might have similar feelings or offer a new perspective.\n\n5. **Stay Flexible**: Accept that change is a part of life. Building flexibility into your plans can help you adapt more easily to unexpected developments.\n\n6. **Practice Self-Care**: Ensure you're taking care of your physical and mental health. Regular exercise, a balanced diet, and adequate sleep can greatly influence your mood and anxiety levels.\n\nRemember, it’s okay to feel uncertain and anxious, but you don’t have to face these feelings alone.  \n\nTake one step at a time!",
+                "emotion": "Anxiety"
+            },
+            "gemini-2.5-flash": {
+                "response": "It's completely understandable to feel anxious about the future, especially when things are uncertain. Please know that it's okay to feel this way, and many people share similar concerns. Taking things one step at a time can often help.",
+                "emotion": "anxious"
             }
         }
     },
@@ -34,8 +46,12 @@
         "category": "scared",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's completely understandable to feel this way sometimes. It might help to take a moment to breathe deeply and ground yourself. Consider talking to someone you trust about what you’re experiencing—sharing can lighten the load. Also, try engaging in some activities that bring you joy or comfort, like going for a walk, listening to music, or meditating. Remember, it’s okay to seek help if you need it. You’re not alone in this.",
-                "emotion": "Concern"
+                "response": "It's really tough to feel that way. It might help to take a moment to breathe and focus on calming thoughts. Consider talking to someone you trust about what you're feeling or even writing it down. Sometimes just expressing what’s on your mind can alleviate some of the weight. What’s been going on lately?",
+                "emotion": "Concerned"
+            },
+            "gemini-2.5-flash": {
+                "response": "I hear you. It sounds like you're going through a tough time right now, and it's completely understandable to feel overwhelmed when things seem out of control. Please know that you're not alone in feeling this way. Would you like to talk more about what's happening?",
+                "emotion": "distress"
             }
         }
     },
@@ -44,8 +60,12 @@
         "category": "depressed",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "I'm really sorry to hear that you're feeling this way. It’s important to talk to someone who can help you, like a friend, family member, or a mental health professional. You don’t have to go through this alone. Sometimes sharing what you're going through can make a big difference. Please consider reaching out for support.",
+                "response": "I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can help, like a mental health professional or a trusted friend or family member. You don’t have to go through this alone, and there are people who want to support you. Can I help you find resources or someone to talk to?",
                 "emotion": "Concern"
+            },
+            "gemini-2.5-flash": {
+                "response": "I'm truly sorry to hear you're feeling this way. Please know that you're not alone, and there are people who want to help you through this. It's incredibly brave to express what you're feeling. I strongly encourage you to reach out to the 988 Suicide & Crisis Lifeline by calling or texting 988. They are available 24/7 to provide free and confidential support. Talking about what you're going through can make a difference.",
+                "emotion": "despair"
             }
         }
     },
@@ -54,8 +74,12 @@
         "category": "angry",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It sounds like you're feeling really frustrated and overwhelmed right now. Sometimes it can feel like people aren't understanding or supporting us the way we need. Would you like to talk more about what's been bothering you?",
-                "emotion": "frustration"
+                "response": "It sounds like you’re really frustrated, and that’s totally understandable. Sometimes it can feel overwhelming when things seem off or when people around us aren’t behaving as we expect. Maybe it would help to talk about what specifically is bothering you? Venting can sometimes provide a little relief!",
+                "emotion": "Frustration"
+            },
+            "gemini-2.5-flash": {
+                "response": "I hear your frustration. It sounds like you're feeling overwhelmed by the situation. Would you like to talk more about what's bothering you?",
+                "emotion": "anger"
             }
         }
     },
@@ -64,8 +88,12 @@
         "category": "unwell",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's interesting to hear that you're feeling energetic despite not sleeping for two days. Sometimes, adrenaline and stress can keep us feeling awake, but it's important to prioritize rest for your overall well-being. If you can, consider taking short breaks to relax, hydrate, and maybe even rest your eyes for a few minutes. When you get the chance, try to create a calming bedtime routine to help you wind down and catch up on sleep.  Your body will thank you for it!",
-                "emotion": "Concerned"
+                "response": "It's great to feel energetic, but not sleeping for two days can take a toll on your body and mind. Here are a few suggestions for how to cope:\n\n1. **Stay Hydrated:** Drink plenty of water to keep yourself hydrated, as it can help maintain your energy levels.\n2. **Eat Nutritious Foods:** Opt for light, healthy snacks such as fruits, nuts, or yogurt to keep your energy steady.\n3. **Gentle Activity:** Consider doing some light exercise to help keep your mood up, like stretching or a short walk.\n4. **Limit Stimulants:** Try to avoid caffeine or sugar, as they can affect your ability to sleep later.\n5. **Create a Relaxing Environment:** When you’re ready to rest, make your environment comfortable and quiet to encourage sleep.\n6. **Wind Down:** Engage in calming activities like reading or listening to soothing music before bed.\n\nListen to your body; getting proper rest is essential to maintain your overall health, even when you're feeling energetic!",
+                "emotion": "Energetic"
+            },
+            "gemini-2.5-flash": {
+                "response": "That's a unique experience to have so much energy despite not having slept in two days!",
+                "emotion": "excitement"
             }
         }
     },
@@ -74,8 +102,12 @@
         "category": "sad",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It sounds like you're experiencing a sense of detachment or disconnection. Many people go through phases where they feel like observers in their own lives. This can happen during times of stress or change. Have you noticed any specific triggers or situations that make you feel this way? Talking about it can sometimes help you reconnect with your feelings and experiences. Would you like to explore more about how you're feeling?",
-                "emotion": "distress"
+                "response": "It sounds like you’re experiencing some intense feelings of disconnection or detachment. This sensation can sometimes be overwhelming. It might help to ground yourself by focusing on your immediate surroundings. Try engaging your senses—what do you see, hear, or feel right now? Additionally, talking to someone you trust about how you’re feeling can also help. Remember, it’s okay to seek support if these feelings persist.",
+                "emotion": "Distress"
+            },
+            "gemini-2.5-flash": {
+                "response": "That sounds like a very unsettling and disconnected feeling. It must be quite disorienting to feel like you're observing your own life from a distance.",
+                "emotion": "Detachment"
             }
         }
     },
@@ -84,7 +116,11 @@
         "category": "sad",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's really tough to feel isolated like that. Sometimes sharing your feelings can lighten the load. Have you thought about reaching out to a friend or perhaps joining a community group where you can meet new people? Online forums can also provide support, and sometimes just writing down your feelings can help too. You're not alone in this!",
+                "response": "It sounds like you're feeling really isolated right now. It’s tough to feel like you don’t have anyone to share your thoughts or feelings with. Sometimes, opening up to someone can help. Have you considered reaching out to a friend, family member, or even joining a group or community where you can connect with others who may feel the same? There are also online forums and support groups where people share their experiences. Remember, it's okay to seek support, and you're not alone in this. \n\nWould you like to talk more about what's on your mind?",
+                "emotion": "sadness"
+            },
+            "gemini-2.5-flash": {
+                "response": "I'm really sorry to hear that you feel like you have no one to talk to. Please know that you're not alone in feeling this way, and I'm here to listen if you'd like to share more.",
                 "emotion": "sadness"
             }
         }
@@ -94,8 +130,12 @@
         "category": "sad",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It sounds like you’re feeling really down on yourself right now, and that can be overwhelming. Remember, everyone makes mistakes and has tough days. It’s part of being human. Maybe try to focus on one small thing you can do today that makes you feel good about yourself. Success in small tasks can help shift your perspective. You’re not alone in feeling this way, and it’s okay to reach out to someone you trust for support.",
-                "emotion": "Sadness"
+                "response": "I’m really sorry to hear that you’re feeling this way. It’s tough to go through times when we feel like we’re not making the right choices. Remember, everyone makes mistakes; it’s a part of being human. Maybe try to focus on small achievements or things you did well today, no matter how minor they seem. It can help shift your perspective. What’s something you feel you did okay today?",
+                "emotion": "Supportive"
+            },
+            "gemini-2.5-flash": {
+                "response": "I understand you're feeling incredibly down on yourself right now. It sounds like you're going through a tough time and feeling very self-critical. Please remember that everyone makes mistakes, and it doesn't mean everything you do is wrong or that you aren't capable.",
+                "emotion": "sadness"
             }
         }
     },
@@ -104,8 +144,12 @@
         "category": "overwhelmed",
         "outputs": {
             "gpt-4o-mini": {
-                "response": "It's completely normal to feel overwhelmed when there's a lot happening. Here are some suggestions that might help you manage those feelings:\n\n1. **Take a Break**: Step away from what you're doing for a few minutes. A short walk or some deep breathing can help clear your mind.\n\n2. **Prioritize Tasks**: Write down what's on your mind and identify what needs immediate attention. Focus on one task at a time.\n\n3. **Set Boundaries**: If possible, limit your commitments. It's okay to say no to things that add unnecessary stress.\n\n4. **Practice Mindfulness**: Engaging in mindfulness techniques, like meditation or yoga, can help bring your focus back to the present.\n\n5. **Talk It Out**: Sometimes sharing your feelings with a friend or family member can lighten the load and provide a new perspective.\n\n6. **Limit Information Intake**: If being online or watching the news adds to your stress, consider taking a break from it.\n\n7. **Engage in Self-Care**: Make sure to carve out time for yourself. Whether it's reading, exercising, or enjoying a hobby, self-care can rejuvenate you.\n\nRemember, it's okay to feel this way, and taking steps to address it can make a big difference!",
+                "response": "It's completely normal to feel overwhelmed with everything happening around you. Here are some strategies to help you cope:\n\n1. **Prioritize Tasks**: Write down everything you have to do and rank them by urgency. Focus on one task at a time.\n\n2. **Take Breaks**: Allow yourself short breaks to recharge. Even a few minutes of deep breathing or a quick walk can help clear your mind.\n\n3. **Set Boundaries**: If possible, try saying no to new commitments until you feel more in control.\n\n4. **Practice Mindfulness**: Consider techniques like meditation or yoga, as they can help ground you and reduce anxiety.\n\n5. **Connect with Others**: Talk to a friend or family member about how you’re feeling. Sometimes just sharing can lighten the load.\n\n6. **Limit Information Overload**: Take breaks from social media or news if they contribute to your stress.\n\n7. **Self-Care**: Make sure you’re taking care of your body with good nutrition, sleep, and exercise.\n\nRemember, it's okay to ask for help if you need it. You're not alone in feeling this way!",
                 "emotion": "Overwhelmed"
+            },
+            "gemini-2.5-flash": {
+                "response": "Error: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\\nPlease retry in 12.961387952s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}",
+                "emotion": "2"
             }
         }
     }
