@@ -18,9 +18,11 @@ each prompt will be assigned a unique id. Followed by the ID and the prompt itse
   == Model Responses:\
 
   #for model in json.at(key).at("outputs").keys() [
-    === #model:
+    === #model:\
+
+    *Model emotion classifier*: #json.at(key).at("outputs").at(model).at("emotion")
     
-    #json.at(key).at("outputs").at(model)
+    #json.at(key).at("outputs").at(model).at("response")
 
   ]
   
