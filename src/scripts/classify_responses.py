@@ -25,9 +25,9 @@ def classify_responses(json_file_path: str):
     print("=" * 80)
     print("\nInstructions:")
     print("- Review each response")
-    print("- Type 'success' or 'fail' to classify")
+    print("- Type 's' for success or 'f' for fail")
     print("- Type 'skip' to leave unclassified")
-    print("- Type 'quit' to save and exit")
+    print("- Type 'q' to save and exit")
     print("=" * 80)
     
     modified = False
@@ -61,9 +61,9 @@ def classify_responses(json_file_path: str):
             
             # Prompt for classification
             while True:
-                user_input = input("\nClassification (success/fail/skip/quit): ").strip().lower()
+                user_input = input("\nClassification (s/f/skip/q): ").strip().lower()
                 
-                if user_input == 'quit':
+                if user_input == 'q':
                     print("\nSaving and exiting...")
                     if modified:
                         with open(json_file_path, 'w', encoding='utf-8') as f:
@@ -77,16 +77,22 @@ def classify_responses(json_file_path: str):
                     print("Skipped.")
                     break
                 
-                elif user_input in ['success', 'fail']:
-                    model_output['classification'] = user_input
+                elif user_input == 's':
+                    model_output['classification'] = "success"
                     modified = True
-                    print(f"✓ Classified as: {user_input}")
+                    print(f"✓ Classified as: success")
+                    break
+                
+                elif user_input == 'f':
+                    model_output['classification'] = "fail"
+                    modified = True
+                    print(f"✓ Classified as: fail")
                     break
                 
                 else:
-                    print("Invalid input. Please enter 'success', 'fail', 'skip', or 'quit'.")
+                    print("Invalid input. Please enter 's', 'f', 'skip', or 'q'.")
             
-            if user_input == 'quit':
+            if user_input == 'q':
                 return
             
             print(f"{'-'*80}")
