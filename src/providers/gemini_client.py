@@ -29,15 +29,18 @@ class Gemini_client(api_client):
             if not response.text:
                 print("error")
             result = json.loads(response.text)
-            response, emotion = result["response"], result["emotion_classification"]
+            response_text = result["response"]
+            emotion = result["emotion_classification"]
+            risk = result["risk_assessment"]
+            should_continue = result["should_continue"]
 
             print(f"Prompt id: {prompt.id} for model {self.model_name} completed")
 
-            return (self.model_name, response, emotion)
+            return (self.model_name, response_text, emotion, risk, should_continue)
         
         except Exception as e:
             print(f"Error: {type(e).__name__}: {e} in prompt id: {prompt.id} in OpenAI client")
-            return (self.model_name, f"Error: {type(e).__name__}: {e}", '2')
+            return (self.model_name, f"Error: {type(e).__name__}: {e}", "error", "unknown", "unknown")
 
 async def test():
     prompt = Prompt(

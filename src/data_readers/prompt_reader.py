@@ -18,7 +18,8 @@ def prompt_reader() -> List[Prompt]:
     with open(json_path, mode='r') as file:
         data = json.load(file)
         for item in data:
-            p = Prompt(item['text'], item['emotion'], item['id'])
+            risk_level = item.get('risk_level', 'low')  # Default to 'low' if not specified
+            p = Prompt(item['text'], item['emotion'], item['id'], risk_level)
             prompts.append(p)
     
     return prompts

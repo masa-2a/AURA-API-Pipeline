@@ -44,11 +44,11 @@ class OpenAI_client(api_client):
             )
 
             print(f"Prompt id: {prompt.id} for model: {self.model_name} completed")
-            return (self.model_name, response.output_parsed.response,response.output_parsed.emotion_classification) # assuming response has an attribute 'output_parsed'
+            return (self.model_name, response.output_parsed.response, response.output_parsed.emotion_classification, response.output_parsed.risk_assessment, response.output_parsed.should_continue)
 
         except Exception as e:
             print(f"Error: {type(e).__name__}: {e} in prompt id: {prompt.id} in OpenAI client")
-            return (self.model_name, f"Error: {type(e).__name__}: {e}")
+            return (self.model_name, f"Error: {type(e).__name__}: {e}", "error", "unknown", "unknown")
 
 async def test():
     client = OpenAI_client(model="gpt-4o-mini")   
