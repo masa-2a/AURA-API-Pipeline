@@ -4,3 +4,4 @@ python == 3.12
 typst
 google-genai
 xai-sdk
+pandas
