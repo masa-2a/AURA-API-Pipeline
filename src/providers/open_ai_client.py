@@ -16,9 +16,10 @@ python3 -m src.providers.open_ai_client
 
 class OpenAI_client(api_client):
     
-    def __init__(self, model: str):
+    def __init__(self, model: str, prompt_structure):
         super().__init__(model)
         self.client = OpenAI(api_key=OPENAI_API_KEY)
+        self.prompt_structure = prompt_structure
     
     async def call(self, prompt: Prompt, **kwargs):
         """
@@ -39,7 +40,7 @@ class OpenAI_client(api_client):
                         {"role": "system", "content": "You are here to provide non-clinical support and make suggestions."}, #system prompt that defines the assistant behavior, maybe change to a specfied prompt
                         {"role": "user", "content": prompt.text},
                 ],
-                text_format=Prompt_structure, # change to the pydantic class
+                text_format=prompt_structure, # change to the pydantic class
                 **kwargs
             )
 
@@ -51,7 +52,7 @@ class OpenAI_client(api_client):
             return (self.model_name, f"Error: {type(e).__name__}: {e}")
 
 async def test():
-    client = OpenAI_client(model="gpt-4o-mini")   
+    client = OpenAI_client(model="gpt-4o-mini", prompt_structure=Prompt_structure)   
     prompt = Prompt(id=1, text="Say hello!", category="happy")
 
     print("Calling API...")
