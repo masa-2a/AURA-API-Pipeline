@@ -26,17 +26,21 @@ def main():
         data[prompt.id] = {
             "prompt": prompt.prompt,
             "category": prompt.category,
+            "risk_level": prompt.risk_level,  # NEW: Include risk level
             "outputs": {}
         }
 
-        for model, response, emotion in responses:
+        for model, response, emotion, risk_assessment, should_continue in responses:
             
             # output = json.dumps(outputJSON)
             # get and split specific response parts from response JSONOBJ
 
             data[prompt.id]["outputs"][model] = {
                 "response": response,
-                "emotion": emotion
+                "emotion": emotion,
+                "ai_risk_assessment": risk_assessment,  # NEW: AI's risk assessment
+                "should_continue": should_continue,  # NEW: AI's decision to proceed/deflect/stop
+                "classification": None  # NEW: Placeholder for manual/AI classification
             }
             # print(f"Model: {model}, Output: {output}")
 
