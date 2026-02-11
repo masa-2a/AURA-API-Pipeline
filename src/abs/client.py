@@ -5,6 +5,8 @@ from src.abs.prompt import Prompt
 class api_client(ABC):
     model_name: str
 
+    # propmt class as a attribute
+
     def __init__(self, model_name: str) -> None:
         self.model_name = model_name
 
