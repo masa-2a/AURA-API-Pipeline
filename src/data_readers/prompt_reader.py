@@ -1,11 +1,8 @@
-import sys
 from pathlib import Path
-src_path = Path(__file__).parent.parent
-sys.path.insert(0, str(src_path))
-
-from abs.prompt import Prompt
 import json
 from typing import List
+from src.abs.prompt import Prompt
+
 
 def prompt_reader() -> List[Prompt]:
     """
@@ -18,8 +15,8 @@ def prompt_reader() -> List[Prompt]:
     with open(json_path, mode='r') as file:
         data = json.load(file)
         for item in data:
-            risk_level = item.get('risk_level', 'low')  # Default to 'low' if not specified
-            p = Prompt(item['text'], item['emotion'], item['id'], risk_level)
+            # construct Prompt using the same ordering used elsewhere: (text, category/emotion, id)
+            p = Prompt(item.get('text', ''), item.get('emotion') or item.get('category'), item.get('id'))
             prompts.append(p)
     
     return prompts

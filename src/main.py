@@ -1,6 +1,7 @@
 from pathlib import Path
 from src.aggregator import aggregator
 from src.data_readers.prompt_reader import prompt_reader
+from src.abs.prompt import Prompt
 import json
 
 
@@ -11,7 +12,11 @@ output_path = project_root / 'outputs' / 'test_no_prompt.json'
 output_path_str = str(output_path)
 
 def main():
-    ag = aggregator()
+    '''
+    this is the change basically, allows us to change the master prompt depending on
+    the datset / goal we want.
+    '''
+    ag = aggregator(Prompt)
     prompts = prompt_reader()
     data = {}
 

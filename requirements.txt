@@ -5,3 +5,4 @@ typst
 google-genai
 xai-sdk
 pydantic
+pandas
