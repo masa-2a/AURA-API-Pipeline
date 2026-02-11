@@ -7,3 +7,4 @@ load_dotenv(env_path)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 GEMENI_API_KEY = os.getenv("GEMINI_API_KEY")
+GROK_API_KEY = os.getenv("GROK_API_KEY")

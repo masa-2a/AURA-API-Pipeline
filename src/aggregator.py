@@ -5,6 +5,7 @@ from typing import List, Type
 from src.abs.prompt import Prompt as DefaultPromptModel
 import asyncio
 from src.providers.gemini_client import Gemini_client
+from src.providers.grok_client import Grok_client
 
 class aggregator:
     """
