@@ -26,4 +26,32 @@ More models can be implemented by creating more api_client classes and adding th
 
 ### Running the script
 
-The script can be run by running main.py as a package. Prompt completions and errors will be printed to the terminal, errors will not be retried and can be individually retried after the completion of the rest of the prompts. JSON saving only occurs at the end of the script.
+**Option 1: Command Line Interface (Recommended)**
+
+```bash
+# Default - runs with Reddit dataset and default schemas
+python src/main_cli.py
+
+# With custom schemas (example)
+python src/main_cli.py \
+    --prompt-module reddit_data.reddit_prompt \
+    --prompt-class RedditPrompt \
+    --response-module reddit_data.reddit_response \
+    --response-class MentalHealthResponse \
+    --input-file reddit_dataset.json \
+    --output-file outputs/results.json
+
+# View all options
+python src/main_cli.py --help
+```
+
+**Option 2: Direct Script**
+
+```bash
+# Edit src/main.py to configure input/output files and schemas
+python src/main.py
+```
+
+**See QUICK_START.md for detailed usage examples and creating custom schemas.**
+
+Prompt completions and errors will be printed to the terminal. Errors will not be retried and can be individually retried after completion. JSON saving occurs at the end of the script.

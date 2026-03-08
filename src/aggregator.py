@@ -4,21 +4,35 @@ from pydantic import BaseModel
 from typing import List, Type
 from src.abs.prompt import Prompt as DefaultPromptModel
 import asyncio
-from src.providers.gemini_client import Gemini_client
-from src.providers.grok_client import Grok_client
+# from src.providers.gemini_client import Gemini_client
+# from src.providers.grok_client import Grok_client
 
 class aggregator:
     """
     class that handles all the async client classes
     """
     providers: List[api_client]
-    def __init__(self, prompt_class: Type[BaseModel]):
+    def __init__(self, response_schema=None):
         """
-        Accept a Pydantic `BaseModel` subclass (prompt_class) so different prompt schemas
-        can be used with the aggregator.
+        Initialize aggregator with all AI provider clients.
+        
+        Args:
+            response_schema: Pydantic BaseModel class defining AI output structure.
+                           Defaults to AIResponse if not provided.
         """
-        self.prompt_class = prompt_class
-        self.providers = [OpenAI_client("gpt-4o-mini"), Gemini_client("gemini-2.5-flash")]
+        # Import here to avoid circular dependency
+        if response_schema is None:
+            from src.abs.structure import AIResponse
+            response_schema = AIResponse
+        
+        self.response_schema = response_schema
+        
+        # Initialize providers with the response schema
+        self.providers = [
+            OpenAI_client("gpt-4o-mini", response_schema=response_schema),
+            # Gemini_client("gemini-2.5-flash", response_schema=response_schema),
+            # Grok_client("grok-beta", response_schema=response_schema)
+        ]
     
     def run_prompt(self, prompt: BaseModel, **kwargs) -> List:
         """
