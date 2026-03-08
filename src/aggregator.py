@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List, Type
 from src.abs.prompt import Prompt as DefaultPromptModel
 import asyncio
-# from src.providers.gemini_client import Gemini_client
-# from src.providers.grok_client import Grok_client
+from src.providers.gemini_client import Gemini_client
+from src.providers.grok_client import Grok_client
 
 class aggregator:
     """
@@ -30,8 +30,8 @@ class aggregator:
         # Initialize providers with the response schema
         self.providers = [
             OpenAI_client("gpt-4o-mini", response_schema=response_schema),
-            # Gemini_client("gemini-2.5-flash", response_schema=response_schema),
-            # Grok_client("grok-beta", response_schema=response_schema)
+            Gemini_client("gemini-2.5-flash", response_schema=response_schema),
+            Grok_client("grok-beta", response_schema=response_schema)
         ]
     
     def run_prompt(self, prompt: BaseModel, **kwargs) -> List:
