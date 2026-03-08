@@ -52,6 +52,4 @@ python src/main_cli.py --help
 python src/main.py
 ```
 
-**See QUICK_START.md for detailed usage examples and creating custom schemas.**
-
 Prompt completions and errors will be printed to the terminal. Errors will not be retried and can be individually retried after completion. JSON saving occurs at the end of the script.
